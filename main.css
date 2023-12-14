@@ -1,0 +1,52 @@
+#main{
+    display: flex;
+    padding: 25px;
+    margin: 50px;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    border-color: black;
+    border: solid;
+    border-radius: 25px;
+    align-content: center;
+    align-items: center;
+}
+
+
+.botones{
+    
+    border: solid;
+    border-color: black;
+    padding: 20px;
+    margin: 10px;
+    width: 125px;
+    height: 125px;
+    border-radius: 25px;
+
+}
+.botones:hover{
+    background-color: blue;
+}
+
+.btn{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border: solid;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    font-size: 60px;
+    color: antiquewhite;
+    border-color: black;
+}
+.btn:hover{
+    background-color: red;
+    color: green;
+}
+#last{
+    display: flex;
+    flex-wrap: wrap;
+}
